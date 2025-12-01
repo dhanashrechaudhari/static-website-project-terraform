@@ -5,6 +5,39 @@
     align-content: center;
     padding: 20px;
 }
+.handyman-section {
+    background: linear-gradient(to right, #e1ce73, #3c361d);
+    padding: 40px 0;
+}
+.navbar {
+    background-color: #111827 !important;  /* dark navbar */
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #121211 !important; /* yellow hover */
+}
+.btn-warning {
+    background-color: #f59e0b !important;
+    border-radius: 30px;
+    padding: 10px 25px;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #664015 !important;
+}
+.service1 img {
+    transition: transform 0.3s ease;
+}
+
+.service1:hover img {
+    transform: scale(1.1);
+}
 
 .auhandy-section {
   background-color: grey;
